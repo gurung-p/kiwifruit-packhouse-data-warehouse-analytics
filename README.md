@@ -65,6 +65,11 @@ Lookup tables used to standardise codes and descriptions.
 
 ### **Entity Relationship Diagram (ERD)**
 <p align="center">
+  <img src="docs/erd.png" width="800">
+</p>
+
+
+<p align="center">
   <a href="docs/erd.png">🔍 Click to view full-size ERD</a>
 </p>
 
