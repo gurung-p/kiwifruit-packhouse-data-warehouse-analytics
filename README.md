@@ -75,22 +75,22 @@ Lookup tables used to standardise codes and descriptions.
 | **TrayCount** | Number of trays packed or on a pallet. | 100–120 trays per pallet | Standard pallet configuration in NZ packhouses. |
 | **PackedKg / TotalKg** | Total kilograms packed or produced. | 600–900 kg per pallet | Typical net weight range depending on tray type and fruit size. |
 | **MovementType** | Coolstore movement: In, Out, Relocate. | N/A | Tracks pallet flow for inventory accuracy and cold chain compliance. |
-| **Temperature** | Coolstore temperature (°C). | **0–1°C** | Optimal storage temperature to slow ripening and maintain firmness. |
-| **Humidity** | Coolstore humidity (%RH). | **90–95% RH** | High humidity prevents fruit dehydration and weight loss. |
+| **Temperature** | Coolstore temperature (°C). | 0–1°C | Optimal storage temperature to slow ripening and maintain firmness. |
+| **Humidity** | Coolstore humidity (%RH). | 90–95% RH | High humidity prevents fruit dehydration and weight loss. |
 | **PalletNumber** | Unique pallet identifier. | N/A | Critical for traceability from orchard to export. |
 | **DaysInCoolstore** | How long a pallet has been stored. | As low as possible | Longer storage increases softening risk and reduces market life. |
 | **DefectCode** | QC defect type (e.g., blemish, rot). | N/A | Used to classify and monitor fruit quality issues. |
 | **DefectCount / TotalDefects** | Number of defects found in QC sample. | As low as possible | High defect rates indicate orchard issues or packing line problems. |
-| **Brix** | Sugar level of fruit (°Bx). | **SunGold (G3): 6.5–7.5+**<br>**Hayward (Green): 6.2–6.8+** | Minimum Brix ensures fruit sweetness and export maturity compliance. |
-| **DryMatter** | Percentage of solids; key flavour predictor. | **SunGold: 16–18%+**<br>**Hayward: 15–17%+** | Higher DM strongly correlates with better flavour and consumer satisfaction. |
-| **Pressure** | Fruit firmness (kgf). | **SunGold: 6–8 kgf**<br>**Hayward: 7–9 kgf** | Ensures fruit is firm enough for export and long storage. |
+| **Brix** | Sugar level of fruit (°Bx). | SunGold (G3): 6.5–7.5+<br>Hayward (Green): 6.2–6.8+ | Minimum Brix ensures fruit sweetness and export maturity compliance. |
+| **DryMatter** | Percentage of solids; key flavour predictor. | SunGold: 16–18%+<br>Hayward: 15–17%+ | Higher DM strongly correlates with better flavour and consumer satisfaction. |
+| **Pressure** | Fruit firmness (kgf). | SunGold: 6–8 kgf<br>Hayward: 7–9 kgf | Ensures fruit is firm enough for export and long storage. |
 | **PassFailStatus** | Whether QC sample passed maturity rules. | Pass | Ensures fruit meets Zespri maturity standards before packing. |
 | **QualityScore** | Numeric score summarising quality. | Higher = better | Aggregates QC performance across samples or growers. |
 | **ReasonCode** | Downtime reason (mechanical, labour, cleaning). | N/A | Helps identify bottlenecks and operational inefficiencies. |
 | **DurationMinutes** | Length of downtime event. | As low as possible | Directly impacts throughput and OEE performance. |
 | **QualityRate** | QC pass rate for OEE. | >90% preferred | High quality rate indicates consistent fruit maturity and packing accuracy. |
 | **PalletCount** | Number of pallets produced or stored. | N/A | Key metric for daily throughput and coolstore utilisation. |
-| **AvgBrix / AvgDryMatter** | Average maturity metrics. | **SunGold: Brix 6.5–7.5+, DM 16–18%+**<br>**Hayward: Brix 6.2–6.8+, DM 15–17%+** | Used to monitor overall fruit quality trends across growers and seasons. |
+| **AvgBrix / AvgDryMatter** | Average maturity metrics. | SunGold: Brix 6.5–7.5+, DM 16–18%+<br>Hayward: Brix 6.2–6.8+, DM 15–17%+ | Used to monitor overall fruit quality trends across growers and seasons. |
 
 ---
 
