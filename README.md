@@ -39,23 +39,31 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
 
 ---
 
-## Data Warehouse Schema
+## Data Warehouse Schema Overview
 
 ### **Dimensions**
-- `DimDate` – Standard date dimension  
-- `DimGrower` – SCD2 grower attributes  
-- `DimBlock` – SCD2 orchard block attributes  
-- `DimVariety` – Kiwifruit varieties  
-- `DimPackLine` – Packing line metadata  
-- `DimCoolstore` – Coolstore rooms  
-- `DimCustomer` – Export customers  
+
+- `DimDate` – Standard date dimension for calendar attributes 
+- `DimGrower` –  SCD2 grower attributes (code, name, region, active status)
+- `DimBlock` – SCD2 orchard block attributes (block, grower, variety, hectares, region)  
+- `DimVariety` –  Kiwifruit varieties and maturity groups
+- `DimPackLine` – Packing line metadata (line name, site)
+- `DimCoolstore` – Coolstore rooms and site information
+- `DimCustomer` – Export customer and market attributes
 
 ### **Fact Tables**
-- `FactPacking` – Packing runs, grades, classes, volumes  
-- `FactQC` – Defects, Brix, Dry Matter, Pressure  
-- `FactPallet` – Palletisation and shipment status  
-- `FactCoolstore` – In/Out/Relocate movements  
-- `FactDowntime` – Line downtime events  
+- `FactPacking` – Packing runs, grades, classes, tray counts, packed kg
+- `FactQC` – QC sampling results: defects, Brix, Dry Matter, Pressure
+- `FactPallet` – Palletisation, tray counts, net kg, customer, status
+- `FactCoolstore` – Pallet movements (In/Out/Relocate), temperature, humidity 
+- `FactDowntime` – Line downtime events, reason codes, duration
+
+###**Reference Tables**###
+Lookup tables used to standardise codes and descriptions.
+
+RefDefect – Defect codes, descriptions, and severity levels
+
+RefDowntimeReason – Downtime reason codes and descriptions
 
 ---
 
