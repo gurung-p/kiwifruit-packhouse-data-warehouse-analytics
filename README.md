@@ -32,9 +32,8 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
   - Coolstore movements & inventory  
   - Operational downtime analysis  
 
-- **Beginner‑Friendly Glossary**
-  - Explains horticulture and post‑harvest terms  
-  - Ideal for readers with no kiwifruit industry background  
+- **Glossary**
+  - Explains horticulture and post‑harvest terms 
   - Includes ideal values for Brix, Dry Matter, Pressure, etc.
 
 ---
