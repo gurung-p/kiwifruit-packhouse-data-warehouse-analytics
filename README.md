@@ -63,6 +63,8 @@ Lookup tables used to standardise codes and descriptions.
 - `RefDefect` – Defect codes, descriptions, and severity levels
 - `RefDowntimeReason` – Downtime reason codes and descriptions
 
+### **Entity Relationship Diagram (ERD)**
+
 ---
 
 ## Glossary
