@@ -8,7 +8,7 @@ Includes a glossary explaining key post‑harvest concepts such as **Brix**, **D
 
 ## Project Overview
 
-This project models the operational workflow of a New Zealand kiwifruit packhouse, from orchard intake through packing, QC, palletisation, coolstore storage, and line downtime.  
+This project models the operational workflow of a New Zealand kiwifruit packhouse, from orchard intake through packing, QC, palletisation, coolstore storage, and line downtime.
 It demonstrates real‑world **data engineering**, **data warehousing**, and **business intelligence** practices using industry‑aligned structures and terminology.
 
 ---
