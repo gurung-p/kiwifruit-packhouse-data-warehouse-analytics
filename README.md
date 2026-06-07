@@ -2,7 +2,7 @@
 
 A complete end‑to‑end **data warehouse and analytics project** for kiwifruit packhouse operations.  
 Built using **SQL Server**, **Power BI**, and a full set of dimensional models covering packing, QC, pallets, coolstore movements, and downtime.  
-Includes a beginner‑friendly glossary explaining key post‑harvest concepts such as **Brix**, **Dry Matter**, **firmness**, and **coolstore conditions**.
+Includes a glossary explaining key post‑harvest concepts such as **Brix**, **Dry Matter**, **firmness**, **coolstore conditions** etc.
 
 ---
 
