@@ -72,7 +72,7 @@ Lookup tables used to standardise codes and descriptions.
 | **GrowerCode** | Unique identifier for a grower supplying fruit. | N/A | Identifies the orchard owner for traceability and performance reporting. |
 | **BlockCode** | Identifier for an orchard block. | N/A | Used to track fruit quality and yield at a block level. |
 | **VarietyCode / VarietyName** | Identifies kiwifruit variety (e.g., Hayward, SunGold). | N/A | Different varieties have different maturity rules and storage behaviour. |
-| **TrayCount** | Number of trays packed or on a pallet. | 100-120 trays per pallet | Standard pallet configuration in NZ packhouses. |
+| **TrayCount** | Number of trays packed or on a pallet. | 100 - 120 trays per pallet | Standard pallet configuration in NZ packhouses. |
 | **PackedKg / TotalKg** | Total kilograms packed or produced. | 600–900 kg per pallet | Typical net weight range depending on tray type and fruit size. |
 | **MovementType** | Coolstore movement: In, Out, Relocate. | N/A | Tracks pallet flow for inventory accuracy and cold chain compliance. |
 | **Temperature** | Coolstore temperature (°C). | 0–1°C | Optimal storage temperature to slow ripening and maintain firmness. |
