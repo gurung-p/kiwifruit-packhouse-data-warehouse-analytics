@@ -65,6 +65,32 @@ A full glossary explaining all packhouse, QC, and coolstore terminology is avail
 
 👉 **[Glossary.md](Glossary.md)**
 
+| Term | Meaning | Ideal / Typical Values | Source (Schema) |
+|------|---------|------------------------|------------------|
+| GrowerCode | Unique identifier for a grower supplying fruit. | N/A | “GrowerCode varchar(20)” |
+| BlockCode | Identifier for an orchard block. | N/A | “BlockCode varchar(20)” |
+| VarietyCode / VarietyName | Identifies kiwifruit variety (e.g., Hayward, SunGold). | N/A | “VarietyName varchar(100)” |
+| TrayCount | Number of trays packed or on a pallet. | 100–120 trays per pallet (typical) | “TrayCount int” |
+| PackedKg / TotalKg | Total kilograms packed or produced. | 600–900 kg per pallet (typical) | “PackedKg decimal” |
+| MovementType | Coolstore movement: In, Out, Relocate. | N/A | “MovementType varchar(20)” |
+| Temperature | Coolstore temperature reading (°C). | **0–1°C** | “Temperature decimal” |
+| Humidity | Coolstore humidity (%RH). | **90–95% RH** | “Humidity decimal” |
+| PalletNumber | Unique pallet identifier. | N/A | “PalletNumber varchar(50)” |
+| DaysInCoolstore | How long a pallet has been stored. | As low as possible | “DaysInCoolstore int” |
+| DefectCode | QC defect type (e.g., blemish, rot). | N/A | “DefectCode varchar(20)” |
+| DefectCount / TotalDefects | Number of defects found in QC sample. | As low as possible | “DefectCount int” |
+| Brix | Sugar level of fruit (°Bx). | **6.5–7.5+ at harvest** | “Brix decimal” |
+| DryMatter | Percentage of solids; key flavour predictor. | **16–18%+** | “DryMatter decimal” |
+| Pressure | Fruit firmness (kgf). | **6–8 kgf at harvest** | “Pressure decimal” |
+| PassFailStatus | Whether QC sample passed maturity rules. | Pass | “PassFailStatus varchar(4)” |
+| QualityScore | Numeric score summarising quality. | Higher = better | “QualityScore numeric” |
+| ReasonCode | Downtime reason (mechanical, labour, cleaning). | N/A | “ReasonCode varchar(20)” |
+| DurationMinutes | Length of downtime event. | As low as possible | “DurationMinutes int” |
+| QualityRate | QC pass rate for OEE. | >90% preferred | “QualityRate numeric” |
+| PalletCount | Number of pallets produced or stored. | N/A | “PalletCount int” |
+| AvgBrix / AvgDryMatter | Average maturity metrics. | Brix 6.5–7.5+, DM 16–18%+ | “AvgBrix decimal” |
+
+
 ---
 
 ## 📊 Power BI Dashboards
