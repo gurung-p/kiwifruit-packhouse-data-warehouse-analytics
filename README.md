@@ -68,12 +68,6 @@ Lookup tables used to standardise codes and descriptions.
   <img src="docs/erd.png" width="800">
 </p>
 
-
-<p align="center">
-  <a href="docs/erd.png">🔍 Click to view full-size ERD</a>
-</p>
-
-
 ---
 
 ## Glossary
