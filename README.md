@@ -64,7 +64,8 @@ Lookup tables used to standardise codes and descriptions.
 - `RefDowntimeReason` – Downtime reason codes and descriptions
 
 ### **Entity Relationship Diagram (ERD)**
-https://github.com/gurung-p/kiwifruit-packhouse-data-warehouse-analytics/blob/main/docs/erd.png
+![ERD Diagram](docs/erd.png)
+
 ---
 
 ## Glossary
