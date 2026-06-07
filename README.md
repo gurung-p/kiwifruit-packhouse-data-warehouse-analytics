@@ -64,7 +64,7 @@ Lookup tables used to standardise codes and descriptions.
 - `RefDowntimeReason` – Downtime reason codes and descriptions
 
 ### **Entity Relationship Diagram (ERD)**
-
+docs/erd.png
 ---
 
 ## Glossary
