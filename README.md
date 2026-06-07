@@ -95,7 +95,7 @@ Lookup tables used to standardise codes and descriptions.
 
 ---
 
-## 📊 Power BI Dashboards
+## Power BI Dashboards
 
 The project includes dashboard designs for:
 
@@ -108,7 +108,7 @@ These dashboards help visualise operational performance across the packhouse wor
 
 ---
 
-##Technologies Used##
+## Technologies Used ##
 
 - **SQL Server** (Data Warehouse)
 - **T‑SQL** (ETL, SCD2 logic, analytical views)
