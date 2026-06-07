@@ -82,7 +82,7 @@ Lookup tables used to standardise codes and descriptions.
 | DefectCode | QC defect type (e.g., blemish, rot). | N/A | Used to classify and monitor fruit quality issues. |
 | DefectCount / TotalDefects | Number of defects found in QC sample. | As low as possible | High defect rates indicate orchard issues or packing line problems. |
 | Brix | Sugar level of fruit (°Bx). | SunGold (G3): 6.5–7.5+<br>Hayward (Green): 6.2–6.8+ | Minimum Brix ensures fruit sweetness and export maturity compliance. |
-| DryMatter | Percentage of solids; key flavour predictor. | SunGold: 16–18%+<br>**Hayward: 15–17%+ | Higher DM strongly correlates with better flavour and consumer satisfaction. |
+| DryMatter | Percentage of solids; key flavour predictor. | SunGold: 16–18%+<br>Hayward: 15–17%+ | Higher DM strongly correlates with better flavour and consumer satisfaction. |
 | Pressure | Fruit firmness (kgf). | SunGold: 6–8 kgf<br>Hayward: 7–9 kgf | Ensures fruit is firm enough for export and long storage. |
 | PassFailStatus | Whether QC sample passed maturity rules. | Pass | Ensures fruit meets Zespri maturity standards before packing. |
 | QualityScore | Numeric score summarising quality. | Higher = better | Aggregates QC performance across samples or growers. |
