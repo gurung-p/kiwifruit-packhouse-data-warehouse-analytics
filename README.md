@@ -58,12 +58,10 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
 - `FactCoolstore` – Pallet movements (In/Out/Relocate), temperature, humidity 
 - `FactDowntime` – Line downtime events, reason codes, duration
 
-###**Reference Tables**###
+### **Reference Table**
 Lookup tables used to standardise codes and descriptions.
-
-RefDefect – Defect codes, descriptions, and severity levels
-
-RefDowntimeReason – Downtime reason codes and descriptions
+- `RefDefect` – Defect codes, descriptions, and severity levels
+- `RefDowntimeReason` – Downtime reason codes and descriptions
 
 ---
 
