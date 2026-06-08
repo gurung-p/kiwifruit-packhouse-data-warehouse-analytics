@@ -51,8 +51,8 @@ The Packhouse Data Warehouse platform consolidates operational data from across 
 ---
 
 ## Data Source Overview
-The synthetic datasets used in this project emulate data flows from real packhouse operational systems.  
-Each source represents a typical enterprise application that would feed a production data warehouse in horticultural processing environments.  
+The synthetic datasets used in this project emulate data flows from real packhouse operational systems.
+Each source represents a typical enterprise application that would feed a production data warehouse in horticultural processing environments.
 These datasets were generated synthetically to reflect realistic packhouse operations and ingested into SQL Server as CSV extracts for the Packhouse_DW warehouse.
 
 | Data Domain | Simulated Source System | Typical System Type | Example Platform |
