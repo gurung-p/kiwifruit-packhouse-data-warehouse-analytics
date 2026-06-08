@@ -1,3 +1,5 @@
+<img src="kiwifruit_grading_ml_workflow.png" alt="Kiwifruit ML Workflow" width="1000">
+
 # Kiwifruit Packhouse Data Warehouse & Analytics
 
 A complete end‑to‑end **data warehouse and analytics project** for kiwifruit packhouse operations.
