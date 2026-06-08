@@ -101,7 +101,7 @@ They ensure consistency for codes, labels, and classifications.
 - `RefDefect` – Defect codes, descriptions, and severity levels
 - `RefDowntimeReason` – Downtime reason codes and descriptions
 
-### **Entity Relationship Diagram (ERD)**
+## **Entity Relationship Diagram (ERD)**
 <p align="left">
   <img src="docs/erd.png" width="800">
 </p>
