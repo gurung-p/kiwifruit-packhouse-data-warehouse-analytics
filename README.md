@@ -21,14 +21,12 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
   - Fact tables for Packing, QC, Pallets, Coolstore, Downtime
 
 - **Analytical SQL Views**
-  - **Season Overview** - high‑level KPIs, production trends, and downtime  
-  - **Variety & Grower Performance** - yield, quality, and consistency across seasons  
-  - **Block Performance** - orchard‑level insights and productivity metrics  
-  - **Packline Performance & Throughput** - line efficiency, output, and bottleneck analysis  
-  - **Packing Insights** - grade distribution, class performance, and packing trends  
-  - **QC Dashboard** - defect patterns, maturity results, and sampling coverage  
-  - **Pallet & Coolstore** - inventory flow, storage duration, and movement tracking  
-  - **Downtime Analysis** - root causes, duration, and operational impact  
+  - Season‑level production metrics  
+  - Variety, grower, and block performance    
+  - Packline throughput, efficiency, and downtime  
+  - Packing grade and class distribution and insights 
+  - QC sampling, defect trends, and maturity metrics
+  - Pallet movements and coolstore inventory
 
 - **Power BI Dashboards**
   - **Season Overview** - high‑level KPIs, production trends, and downtime  
