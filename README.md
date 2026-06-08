@@ -47,6 +47,8 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
 ## Data Warehouse Schema Overview
 
 ### **Dimensions**
+Dimensions store descriptive attributes about business entities.
+They answer the “who, what, where, when” of your data and are used for slicing, filtering, and grouping in analytics.
 
 - `DimDate` – Standard date dimension for calendar attributes 
 - `DimGrower` –  SCD2 grower attributes (code, name, region, active status)
@@ -57,6 +59,9 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
 - `DimCustomer` – Export customer and market attributes
 
 ### **Fact Tables**
+Fact tables store measurable events — the numeric values you aggregate and analyse.
+They answer the “how much, how many, how long” questions.
+
 - `FactPacking` – Packing runs, grades, classes, tray counts, packed kg
 - `FactQC` – QC sampling results: defects, Brix, Dry Matter, Pressure
 - `FactPallet` – Palletisation, tray counts, net kg, customer, status
@@ -64,7 +69,8 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
 - `FactDowntime` – Line downtime events, reason codes, duration
 
 ### **Reference Table**
-Lookup tables used to standardise codes and descriptions.
+Reference tables provide standardised lookup values used across dimensions and facts.
+They ensure consistency for codes, labels, and classifications.
 - `RefDefect` – Defect codes, descriptions, and severity levels
 - `RefDowntimeReason` – Downtime reason codes and descriptions
 
