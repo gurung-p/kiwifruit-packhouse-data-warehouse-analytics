@@ -69,7 +69,7 @@ They answer the “how much, how many, how long” questions.
 - `FactDowntime` – Line downtime events, reason codes, duration
 
 ### **Reference Table**
-Reference tables provide standardised lookup values used across dimensions and facts.
+Reference tables provide standardised lookup values used across dimensions and facts.  
 They ensure consistency for codes, labels, and classifications.
 
 - `RefDefect` – Defect codes, descriptions, and severity levels
