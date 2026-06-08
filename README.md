@@ -71,6 +71,7 @@ These datasets were generated synthetically to reflect realistic packhouse opera
 ## Data Flow Summary
 Operational data from orchard management, packing lines, QC inspections, coolstore operations, downtime tracking, and dispatch systems is exported as structured CSV extracts. These files are ingested into SQL Server through a controlled staging process, where they undergo validation, standardisation, and transformation into the Packhouse_DW warehouse schema. Cleaned data is modelled into Dimensions, Facts, and Reference tables, then exposed through curated SQL Semantic Views. These views form the analytical layer consumed by Power BI dashboards, enabling consistent, governed reporting across production, quality, and supply‑chain workflows.
 
+![image alt](images/Data_Flow_Diagram.png)
 ---
 ## Data Warehouse Schema Overview
 
