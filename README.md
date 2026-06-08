@@ -43,6 +43,9 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
   - Includes ideal values for Brix, Dry Matter, Pressure, etc.
 
 ---
+## High‑Level Architecture Overview
+The Packhouse_DW platform consolidates operational data from across the horticultural value chain into a unified, analytics‑ready warehouse. Source extracts from orchard management, packing operations, quality control, coolstore movements, downtime tracking, and dispatch systems are ingested into SQL Server through a structured staging process. After validation and transformation, the data is modelled into a dimensional warehouse that standardises business logic across production, quality, and supply‑chain domains. Curated SQL Semantic Views provide a governed analytical layer consumed by Power BI dashboards, enabling consistent reporting, operational insights, and data‑driven decision‑making across the packhouse environment.
+---
 
 ## Data Source Overview
 The synthetic datasets used in this project emulate data flows from real packhouse operational systems.  
