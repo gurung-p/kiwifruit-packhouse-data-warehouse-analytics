@@ -57,7 +57,7 @@ These datasets were generated synthetically to reflect realistic packhouse opera
 | --- | --- | --- | --- |
 | **Orchard Metadata** | Grower, block, and variety registration | ERP / Farm Management System | Radfords FreshInsights, Croptracker |
 | **Packing Throughput** | Line performance and tray counts | MES (Manufacturing Execution System) | Packhouse line control software |
-| **Quality Inspections** | Defect and grade results | Laboratory Information Management System (LIMS) / QC System | FreshInsights QC module |
+| **Quality Inspections** | Defect and grade results | LIMS (Laboratory Information Management System) / QC System | FreshInsights QC module |
 | **Coolstore Movements** | Pallet storage and retrieval | WMS (Warehouse Management System) | Radfords Coolstore |
 | **Downtime Logs** | Machine stoppages and reasons | SCADA / Maintenance System | Line PLC or downtime tracker |
 | **Customer & Dispatch** | Orders and shipments | ERP / CRM | Microsoft Dynamics, SAP |
