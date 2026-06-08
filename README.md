@@ -80,7 +80,7 @@ They answer the “who, what, where, when” of our data and are used for slicin
 
 - `DimDate` – Standard date dimension for calendar attributes 
 - `DimGrower` –  SCD2 (Slowly Changing Dimension Type 2) grower attributes (code, name, region, active status)
-- `DimBlock` – SCD2 (Slowly Changing Dimension Type 2) orchard block attributes (block, grower, variety, hectares, region)  
+- `DimBlock` – SCD2 (Slowly Changing Dimension Type 2) orchard block attributes (block, grower, variety, hectares)  
 - `DimVariety` –  Kiwifruit varieties and maturity groups
 - `DimPackLine` – Packing line metadata (line name, site)
 - `DimCoolstore` – Coolstore rooms and site information
