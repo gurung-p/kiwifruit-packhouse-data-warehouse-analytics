@@ -1,4 +1,4 @@
-<img src="kiwifruit_grading_ml_workflow.png" alt="Kiwifruit ML Workflow" width="1000">
+<img src="docs/packhouse-dw-banner.png" alt="Packhouse Warehouse Banner" width="1000">
 
 # Kiwifruit Packhouse Data Warehouse & Analytics
 
