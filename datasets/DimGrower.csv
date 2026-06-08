@@ -1,0 +1,64 @@
+GrowerCode,GrowerName,Region,ActiveFlag,EffectiveFrom,EffectiveTo,IsCurrent
+G001,Smith Family Orchards,Te Puke,1,2022-01-01,NULL,1
+G002,Green Valley Kiwifruit,Katikati,1,2022-01-01,NULL,1
+G003,Harper & Sons Orchards,Te Puke,1,2022-01-01,NULL,1
+G004,Golden Bay Horticulture,Edgecumbe,1,2022-01-01,NULL,1
+G005,Oakridge Orchard,Opotiki,1,2022-01-01,NULL,1
+G006,Wilson Horticulture,Te Puke,1,2022-01-01,NULL,1
+G007,Sunrise Kiwifruit Ltd,Whakatane,1,2022-01-01,NULL,1
+G008,McKenzie Orchard,Katikati,1,2022-01-01,NULL,1
+G009,Pacific Gold Orchards,Te Puke,1,2022-01-01,NULL,1
+G010,Eastview Horticulture,Edgecumbe,1,2022-01-01,NULL,1
+G011,Riverbend Orchards,Te Puke,1,2022-01-01,2023-12-31,0
+G011,Riverbend Orchards,Whakatane,1,2024-01-01,NULL,1
+G012,Highridge Kiwifruit,Katikati,1,2022-01-01,2022-12-31,0
+G012,Highridge Kiwifruit,Te Puke,1,2023-01-01,NULL,1
+G013,Mountain View Orchard,Opotiki,1,2022-01-01,2024-12-31,0
+G013,Mountain View Orchard,Edgecumbe,1,2025-01-01,NULL,1
+G014,Thompson Family Orchard,Te Puke,1,2022-01-01,2023-12-31,0
+G014,Thompson Family Orchard,Te Puke,0,2024-01-01,NULL,1
+G015,Silver Fern Orchards,Whakatane,1,2022-01-01,2022-12-31,0
+G015,Silver Fern Orchards,Whakatane,0,2023-01-01,NULL,1
+G016,Bluewater Horticulture,Te Puke,1,2023-01-01,NULL,1
+G017,Coastal Ridge Orchard,Opotiki,1,2024-01-01,NULL,1
+G018,Golden Crest Kiwifruit,Katikati,1,2025-01-01,NULL,1
+G019,Longview Orchards,Te Puke,1,2022-01-01,2022-12-31,0
+G019,Longview Orchards,Edgecumbe,1,2023-01-01,2024-12-31,0
+G019,Longview Orchards,Edgecumbe,0,2025-01-01,NULL,1
+G020,Redwood Horticulture,Te Puke,1,2022-01-01,2022-12-31,0
+G020,Redwood Horticulture,Katikati,1,2023-01-01,2023-12-31,0
+G020,Redwood Horticulture,Whakatane,1,2024-01-01,NULL,1
+G021,Harbour View Orchard,Te Puke,1,2022-01-01,NULL,1
+G022,Greenstone Orchards,Opotiki,1,2022-01-01,NULL,1
+G023,Silverstream Horticulture,Katikati,1,2022-01-01,NULL,1
+G024,Willowbank Orchard,Edgecumbe,1,2022-01-01,NULL,1
+G025,Suncrest Orchards,Whakatane,1,2022-01-01,NULL,1
+G026,North Ridge Orchard,Te Puke,1,2022-01-01,2023-12-31,0
+G026,North Ridge Orchard,Katikati,1,2024-01-01,NULL,1
+G027,Blue Horizon Kiwifruit,Opotiki,1,2022-01-01,NULL,1
+G028,Golden Acres Orchard,Te Puke,1,2022-01-01,NULL,1
+G029,Clearwater Orchards,Whakatane,1,2022-01-01,NULL,1
+G030,Evergreen Horticulture,Katikati,1,2022-01-01,NULL,1
+G031,Meadowbrook Orchard,Edgecumbe,1,2022-01-01,2024-12-31,0
+G031,Meadowbrook Orchard,Edgecumbe,0,2025-01-01,NULL,1
+G032,Sunhaven Orchards,Te Puke,1,2022-01-01,NULL,1
+G033,Greenhill Orchard,Opotiki,1,2022-01-01,NULL,1
+G034,Oceanview Kiwifruit,Whakatane,1,2022-01-01,NULL,1
+G035,Forest Edge Orchard,Katikati,1,2022-01-01,NULL,1
+G036,Peakview Horticulture,Te Puke,1,2022-01-01,NULL,1
+G037,Golden Terrace Orchard,Edgecumbe,1,2022-01-01,2023-12-31,0
+G037,Golden Terrace Orchard,Whakatane,1,2024-01-01,NULL,1
+G038,Silver Ridge Orchards,Opotiki,1,2022-01-01,NULL,1
+G039,Highland Grove,Katikati,1,2022-01-01,NULL,1
+G040,Sunset Valley Orchard,Te Puke,1,2022-01-01,NULL,1
+G041,Clearwater Estate,Whakatane,1,2022-01-01,NULL,1
+G042,Green Meadows Orchard,Edgecumbe,1,2022-01-01,NULL,1
+G043,Blue Ridge Horticulture,Opotiki,1,2022-01-01,NULL,1
+G044,Harbourside Orchards,Katikati,1,2022-01-01,NULL,1
+G045,Golden Orchard Trust,Te Puke,1,2022-01-01,NULL,1
+G046,Silverleaf Orchards,Whakatane,1,2022-01-01,2024-12-31,0
+G046,Silverleaf Orchards,Whakatane,0,2025-01-01,NULL,1
+G047,Suncrest Estate,Opotiki,1,2022-01-01,NULL,1
+G048,Green Valley Estate,Katikati,1,2022-01-01,NULL,1
+G049,Ocean Breeze Orchard,Te Puke,1,2022-01-01,NULL,1
+G050,Mountain Crest Orchards,Edgecumbe,1,2022-01-01,NULL,1
