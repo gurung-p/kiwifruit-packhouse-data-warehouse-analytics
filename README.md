@@ -21,10 +21,13 @@ It demonstrates real‑world **data engineering**, **data warehousing**, and **b
   - Fact tables for Packing, QC, Pallets, Coolstore, Downtime
 
 - **Analytical SQL Views**
-  - Production metrics  
-  - QC performance  
-  - Coolstore inventory  
-  - Line efficiency & downtime  
+  - Season‑level production metrics  
+  - Variety, grower, and block performance  
+  - Packline throughput, efficiency, and downtime  
+  - Packing grade & class distribution and insights
+  - QC sampling, defect trends, and maturity metrics
+  - Pallet movements and coolstore inventory  
+    
 
 - **Power BI Dashboards**
   - Packing performance  
