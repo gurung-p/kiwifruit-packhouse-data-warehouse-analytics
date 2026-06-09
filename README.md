@@ -76,9 +76,6 @@ The project reflects real‑world **data engineering**, **data warehousing**, an
 - **Pallet & Coolstore**  
 - **Downtime Analysis**  
 
-### Glossary
-Clear explanations of horticulture and post‑harvest terms such as Brix, Dry Matter, firmness, coolstore conditions, and more.
-
 ---
 
 # Power BI Dashboard Gallery
