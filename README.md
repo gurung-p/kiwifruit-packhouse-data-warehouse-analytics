@@ -28,7 +28,7 @@ Built using **SQL Server**, **T‑SQL**, and **Power BI**, this project models t
 
 # Purpose of This Project
 
-This project demonstrates how operational data from a kiwifruit packhouse can be transformed into a unified, analytics‑ready data warehouse.  
+This project demonstrates how operational data from a kiwifruit packhouse can be transformed into a unified, analytics‑ready data warehouse.
 It showcases practical skills in:
 
 - **Data engineering** - staging, validation, transformation, and SCD2 dimension handling  
@@ -42,7 +42,7 @@ It serves as a complete learning and demonstration resource for anyone wanting t
 
 # Project Overview
 
-This project models the operational workflow of a New Zealand kiwifruit packhouse.  
+This project models the operational workflow of a New Zealand kiwifruit packhouse.
 It captures data from orchard blocks, packing lines, QC inspections, pallet movements, coolstore storage, and downtime events, enabling end‑to‑end visibility across production and quality.
 
 The project reflects real‑world **data engineering**, **data warehousing**, and **BI development** using industry‑aligned terminology and structures.
