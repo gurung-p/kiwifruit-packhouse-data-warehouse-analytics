@@ -36,8 +36,7 @@ It showcases practical skills in:
 - **Analytical SQL development** - governed semantic views for consistent business logic  
 - **Business intelligence** - Power BI dashboards for production, quality, throughput, and coolstore insights  
 
-It acts as a complete learning and demonstration resource for anyone wanting to understand how operational data from orchard, packing, QC, coolstore, and downtime systems can be unified into a single analytics‑ready warehouse.
-Overall, this repository serves as a portfolio‑ready example of modern data architecture and analytics in a horticultural processing environment.
+It serves as a complete learning and demonstration resource for anyone wanting to understand how operational data from orchard, packing, QC, coolstore, and downtime systems can be integrated into a single analytics‑ready warehouse. Together with the end‑to‑end implementation, this repository stands as a portfolio‑ready example of modern data architecture and analytics in a horticultural processing environment.
 
 ---
 
