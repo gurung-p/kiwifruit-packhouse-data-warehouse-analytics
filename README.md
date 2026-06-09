@@ -238,7 +238,6 @@ kiwifruit-packhouse-data-warehouse-analytics/
 
 # Repository Structure
 
-```plaintext
 kiwifruit-packhouse-data-warehouse-analytics/
 
 ├── README.md
