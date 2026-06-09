@@ -83,8 +83,7 @@ Clear explanations of horticulture and post‑harvest terms such as Brix, Dry Ma
 # High‑Level Architecture Overview
 
 The platform consolidates operational data from orchard, packing, QC, coolstore, downtime, and dispatch systems into a unified SQL Server warehouse.
-Data is ingested via structured staging, validated, transformed, and modelled into a dimensional schema.  
-Curated SQL Semantic Views provide a governed analytical layer consumed by Power BI dashboards.
+Data is ingested via structured staging, validated, transformed, and modelled into a dimensional schema. Curated SQL Semantic Views provide a governed analytical layer consumed by Power BI dashboards.
 
 ![High Level Architecture](docs/packhouse-dw-high-level-architecture.png)
 
