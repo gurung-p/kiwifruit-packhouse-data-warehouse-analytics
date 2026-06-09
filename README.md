@@ -99,11 +99,15 @@ Below are selected screenshots from the Power BI analytics suite included in thi
 
   ![Packline Throughput](power-bi/images/packline-throughput.png)
 
-  ### Pallet & Coolstore
-  ![Pallet & Coolstore](docs/powerbi-coolstore.png)
+  ![Packing Insights](power-bi/images/packing-insights.png)
 
-  ### Downtime Analysis
-  ![Downtime Analysis](docs/powerbi-downtime.png)
+  ![QC Summary](power-bi/images/qc-summary.png)
+
+  ![Pallet Summary](power-bi/images/pallet-summary.png)
+
+  ![Coolstore Movements](power-bi/images/coolstore-movements.png)
+
+  ![Downtime Summary](power-bi/images/downtime-summary.png)
 
 </details>
 
