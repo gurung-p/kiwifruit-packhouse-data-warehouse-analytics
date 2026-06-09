@@ -2,7 +2,7 @@
 
 # Kiwifruit Packhouse Data Warehouse & Analytics
 
-A complete end‑to‑end **data warehouse and analytics platform** for kiwifruit packhouse operations.  
+A complete end‑to‑end **data warehouse and analytics platform** for kiwifruit packhouse operations.
 Built using **SQL Server**, **T‑SQL**, and **Power BI**, this project models the full post‑harvest workflow, from orchard intake through packing, QC, palletisation, coolstore storage, and downtime analysis.
 
 ---
