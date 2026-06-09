@@ -80,6 +80,41 @@ Clear explanations of horticulture and post‑harvest terms such as Brix, Dry Ma
 
 ---
 
+# Power BI Dashboard Gallery
+
+Below are selected screenshots from the Power BI analytics suite included in this project.
+
+### **Season Overview**
+![Season Overview](docs/powerbi-season-overview.png)
+
+### **Variety Performance**
+![Variety Performance](docs/powerbi-variety.png)
+
+### **Grower Performance**
+![Grower Performance](docs/powerbi-grower.png)
+
+### **Block Performance**
+![Block Performance](docs/powerbi-block.png)
+
+<details>
+  <summary><strong>More Dashboard Screenshots</strong></summary>
+
+  ### Packline Performance
+  ![Packline Performance](docs/powerbi-packline.png)
+
+  ### QC Dashboard
+  ![QC Dashboard](docs/powerbi-qc.png)
+
+  ### Pallet & Coolstore
+  ![Pallet & Coolstore](docs/powerbi-coolstore.png)
+
+  ### Downtime Analysis
+  ![Downtime Analysis](docs/powerbi-downtime.png)
+
+</details>
+
+---
+
 # High‑Level Architecture Overview
 
 The platform consolidates operational data from orchard, packing, QC, coolstore, downtime, and dispatch systems into a unified SQL Server warehouse.
