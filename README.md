@@ -111,7 +111,7 @@ Below are selected screenshots from the Power BI analytics suite included in thi
 
 ---
 
-# High Level Architecture Overview
+# High-Level Architecture Overview
 
 The platform consolidates operational data from orchard, packing, QC, coolstore, downtime, and dispatch systems into a unified SQL Server warehouse.
 Data is ingested via structured staging, validated, transformed, and modelled into a dimensional schema. Curated SQL Semantic Views provide a governed analytical layer consumed by Power BI dashboards.
