@@ -88,19 +88,19 @@ Below are selected screenshots from the Power BI analytics suite included in thi
 ![Season Overview](power-bi/images/season-overview.png)
 
 ### **Variety Performance**
-![Variety Performance](docs/powerbi-variety.png)
+![Variety Performance](power-bi/images/variety-performance.png)
 
 ### **Grower Performance**
-![Grower Performance](docs/powerbi-grower.png)
+![Grower Performance](power-bi/images/grower-performance.png)
 
 ### **Block Performance**
-![Block Performance](docs/powerbi-block.png)
+![Block Performance](power-bi/images/block-performance.png)
+
+### **Packline Performance**
+![Packline Performance](power-bi/images/packline-performance.png)
 
 <details>
   <summary><strong>More Dashboard Screenshots</strong></summary>
-
-  ### Packline Performance
-  ![Packline Performance](docs/powerbi-packline.png)
 
   ### QC Dashboard
   ![QC Dashboard](docs/powerbi-qc.png)
