@@ -102,7 +102,7 @@ Synthetic datasets emulate real packhouse systems, including:
 | Packing Throughput | Line performance | MES (Manufacturing Execution System) | Packhouse line control |
 | Quality Inspections | Defects, grades | LIMS (Laboratory Information Management System) / QC | FreshInsights QC |
 | Coolstore Movements | Pallet storage | WMS (Warehouse Management System) | Radfords Coolstore |
-| Downtime Logs | Machine stoppages | SCADA | PLC / downtime tracker |
+| Downtime Logs | Machine stoppages | SCADA / Maintenance System | PLC / downtime tracker |
 | Customer & Dispatch | Orders, shipments | ERP / CRM | Dynamics, SAP |
 
 ## Data Transformation Flow
