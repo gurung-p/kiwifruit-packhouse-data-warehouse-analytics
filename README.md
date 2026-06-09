@@ -85,7 +85,7 @@ Clear explanations of horticulture and post‑harvest terms such as Brix, Dry Ma
 Below are selected screenshots from the Power BI analytics suite included in this project.
 
 ### **Season Overview**
-![Season Overview](docs/powerbi-season-overview.png)
+![Season Overview](power-bi/images/season-overview.png)
 
 ### **Variety Performance**
 ![Variety Performance](docs/powerbi-variety.png)
