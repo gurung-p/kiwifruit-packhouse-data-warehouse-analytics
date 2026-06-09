@@ -97,8 +97,7 @@ Below are selected screenshots from the Power BI analytics suite included in thi
 <details>
   <summary><strong>More Dashboard Screenshots</strong></summary>
 
-  ### QC Dashboard
-  ![QC Dashboard](docs/powerbi-qc.png)
+  ![Packline Throughput](power-bi/images/packline-throughput.png)
 
   ### Pallet & Coolstore
   ![Pallet & Coolstore](docs/powerbi-coolstore.png)
