@@ -159,7 +159,6 @@ This repository is designed to:
 - Demonstrate **real‑world data engineering skills**
 - Showcase **data warehouse modelling** in a production‑like scenario
 - Provide **analytics and BI examples** using Power BI
-- Help non‑technical readers understand packhouse operations through clear documentation
 
 ---
 
