@@ -178,11 +178,11 @@ A comprehensive glossary explaining key horticultural and post‑harvest terms, 
 
 # Technologies Used
 
-- **SQL Server** — Data warehouse & storage  
-- **T‑SQL** — ETL, SCD2 logic, analytical views  
-- **Power BI** — Dashboards & reporting  
-- **Markdown** — Documentation  
-- **GitHub** — Version control & portfolio  
+- **SQL Server** - Data warehouse & storage  
+- **T‑SQL** - ETL, SCD2 logic, analytical views  
+- **Power BI** - Dashboards & reporting  
+- **Markdown** - Documentation  
+- **GitHub** - Version control & portfolio  
 
 ---
 
