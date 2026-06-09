@@ -3,7 +3,7 @@
 # Kiwifruit Packhouse Data Warehouse & Analytics
 
 A complete end‑to‑end **data warehouse and analytics platform** for kiwifruit packhouse operations.  
-Built using **SQL Server**, **T‑SQL**, and **Power BI**, this project models the full post‑harvest workflow — from orchard intake through packing, QC, palletisation, coolstore storage, and downtime analysis.
+Built using **SQL Server**, **T‑SQL**, and **Power BI**, this project models the full post‑harvest workflow, from orchard intake through packing, QC, palletisation, coolstore storage, and downtime analysis.
 
 ---
 
@@ -31,10 +31,10 @@ Built using **SQL Server**, **T‑SQL**, and **Power BI**, this project models t
 This project demonstrates how operational data from a kiwifruit packhouse can be transformed into a unified, analytics‑ready data warehouse.  
 It showcases practical skills in:
 
-- **Data engineering** — staging, validation, transformation, and SCD2 dimension handling  
-- **Data warehouse modelling** — facts, dimensions, and reference tables aligned to real packhouse processes  
-- **Analytical SQL development** — governed semantic views for consistent business logic  
-- **Business intelligence** — Power BI dashboards for production, quality, throughput, and coolstore insights  
+- **Data engineering** - staging, validation, transformation, and SCD2 dimension handling  
+- **Data warehouse modelling** - facts, dimensions, and reference tables aligned to real packhouse processes  
+- **Analytical SQL development** - governed semantic views for consistent business logic  
+- **Business intelligence** - Power BI dashboards for production, quality, throughput, and coolstore insights  
 
 It acts as a complete learning and demonstration resource for anyone wanting to understand how operational data from orchard, packing, QC, coolstore, and downtime systems can be unified into a single analytics‑ready warehouse.
 Overall, this repository serves as a portfolio‑ready example of modern data architecture and analytics in a horticultural processing environment.
@@ -44,7 +44,7 @@ Overall, this repository serves as a portfolio‑ready example of modern data ar
 # Project Overview
 
 This project models the operational workflow of a New Zealand kiwifruit packhouse.  
-It captures data from orchard blocks, packing lines, QC inspections, pallet movements, coolstore storage, and downtime events — enabling end‑to‑end visibility across production and quality.
+It captures data from orchard blocks, packing lines, QC inspections, pallet movements, coolstore storage, and downtime events, enabling end‑to‑end visibility across production and quality.
 
 The project reflects real‑world **data engineering**, **data warehousing**, and **BI development** using industry‑aligned terminology and structures.
 
@@ -83,7 +83,7 @@ Clear explanations of horticulture and post‑harvest terms such as Brix, Dry Ma
 
 # High‑Level Architecture Overview
 
-The platform consolidates operational data from orchard, packing, QC, coolstore, downtime, and dispatch systems into a unified SQL Server warehouse.  
+The platform consolidates operational data from orchard, packing, QC, coolstore, downtime, and dispatch systems into a unified SQL Server warehouse.
 Data is ingested via structured staging, validated, transformed, and modelled into a dimensional schema.  
 Curated SQL Semantic Views provide a governed analytical layer consumed by Power BI dashboards.
 
@@ -99,9 +99,9 @@ Synthetic datasets emulate real packhouse systems, including:
 | Data Domain | Source System | System Type | Example Platform |
 |------------|----------------|-------------|------------------|
 | Orchard Metadata | Grower/block registration | ERP / Farm Mgmt | FreshInsights, Croptracker |
-| Packing Throughput | Line performance | MES | Packhouse line control |
-| Quality Inspections | Defects, grades | LIMS / QC | FreshInsights QC |
-| Coolstore Movements | Pallet storage | WMS | Radfords Coolstore |
+| Packing Throughput | Line performance | MES (Manufacturing Execution System) | Packhouse line control |
+| Quality Inspections | Defects, grades | LIMS (Laboratory Information Management System) / QC | FreshInsights QC |
+| Coolstore Movements | Pallet storage | WMS (Warehouse Management System) | Radfords Coolstore |
 | Downtime Logs | Machine stoppages | SCADA | PLC / downtime tracker |
 | Customer & Dispatch | Orders, shipments | ERP / CRM | Dynamics, SAP |
 
