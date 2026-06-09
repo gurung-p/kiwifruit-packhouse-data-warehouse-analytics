@@ -142,19 +142,6 @@ They ensure consistency for codes, labels, and classifications.
 
 ---
 
-## Power BI Dashboards
-
-The project includes dashboard designs for:
-
-- Packing throughput & efficiency  
-- QC sampling & defect trends  
-- Coolstore inventory & movement tracking  
-- Downtime analysis & line performance  
-
-These dashboards help visualise operational performance across the packhouse workflow.
-
----
-
 ## Technologies Used ##
 
 - **SQL Server** (Data Warehouse)
