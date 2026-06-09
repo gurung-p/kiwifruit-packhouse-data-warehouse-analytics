@@ -118,8 +118,8 @@ Synthetic datasets emulate real packhouse systems, including:
 
 ## Dimensions
 - `DimDate`  
-- `DimGrower` (SCD2 - Slowly Changing Dimension Type 2)   
-- `DimBlock`    (SCD2 - Slowly Changing Dimension Type 2)   
+- `DimGrower`(SCD2 - Slowly Changing Dimension Type 2)   
+- `DimBlock`  (SCD2 - Slowly Changing Dimension Type 2)   
 - `DimVariety`  
 - `DimPackLine`  
 - `DimCoolstore`  
