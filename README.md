@@ -224,21 +224,24 @@ kiwifruit-packhouse-data-warehouse-analytics/
 ├── README.md
 │
 ├── datasets/
-│   ├── raw/                 # Original CSV extracts (orchard, packing, QC, coolstore, downtime)
+│   └── raw/                         # Original CSV extracts (orchard, packing, QC, coolstore, downtime)
 │
 ├── sql/
-│   ├── schema/              # CREATE TABLE scripts (Dimensions, Facts, Reference)
-│   └── semantic-views/      # Analytical SQL views used by Power BI
+│   ├── schema/                      # CREATE TABLE scripts (Dimensions, Facts, Reference)
+│   └── semantic-views/              # Analytical SQL views used by Power BI
 │
 ├── power-bi/
-│   ├── pbix/                # Power BI Desktop files
-│   └── images/              # Dashboard screenshots (Season, Variety, Grower, etc.)
+│   ├── pbix/                        # Power BI Desktop files
+│   └── images/                      # Dashboard screenshots (Season, Variety, Grower, etc.)
 │
-├── docs/
+└── docs/
     ├── packhouse-dw-banner.png
     ├── packhouse-dw-high-level-architecture.png
     ├── packhouse-dw-data-flow-diagram.png
-    ├── erd.png
+    └── erd.png
+
+
+
     
 
 
