@@ -153,12 +153,18 @@ They ensure consistency for codes, labels, and classifications.
 ---
 
 ## Purpose of This Project
+The purpose of this project is to provide a complete, production‑aligned demonstration of how a modern kiwifruit packhouse can use data engineering, data warehousing, and analytics to support operational decision‑making.   
+It showcases the full lifecycle of building a SQL Server data warehouse, from ingesting raw CSV extracts through staging, transforming them into a dimensional model, and exposing governed analytical views for Power BI reporting.
 
 This repository is designed to:
 
-- Demonstrate **real‑world data engineering skills**
-- Showcase **data warehouse modelling** in a production‑like scenario
-- Provide **analytics and BI examples** using Power BI
+- Illustrate **real‑world data engineering workflows**, including staging, validation, transformation, and SCD2 dimension management  
+- Demonstrate **best‑practice data warehouse modelling** using facts, dimensions, and reference tables aligned to packhouse operations  
+- Provide **analytical SQL views** that standardise business logic for production, quality, coolstore, and downtime reporting
+- Deliver **Power BI dashboards** that mirror the insights used in commercial packhouse environments, covering season trends, variety and grower performance, block productivity, packline throughput, QC results, pallet movements, and downtime analysis
+- Serve as a **portfolio‑ready example** of end‑to‑end data architecture, modelling, and BI development in a horticultural processing context
+
+It acts as a complete learning and demonstration resource for anyone wanting to understand how operational data from orchard, packing, QC, coolstore, and downtime systems can be unified into a single analytics‑ready warehouse.
 
 ---
 
