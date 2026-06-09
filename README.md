@@ -168,5 +168,5 @@ It acts as a complete learning and demonstration resource for anyone wanting to 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
