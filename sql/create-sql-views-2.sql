@@ -265,27 +265,27 @@ Packing summary
 
 CREATE VIEW view_PackingGradeSummary AS
 SELECT
-      fp.DateKey
-    , d.FullDate        AS Date
-    , fp.PackLineSK
-    , pl.PackLineName
-    , fp.GrowerSK
-    , g.GrowerCode
-    , g.GrowerName
-    , fp.BlockSK
-    , b.BlockCode
-    , b.Hectares
-    , fp.VarietySK
-    , v.VarietyCode
-    , v.VarietyName
+      fp.DateKey,
+      d.FullDate        AS Date,
+      fp.PackLineSK,
+      pl.PackLineName,
+      fp.GrowerSK,
+      g.GrowerCode,
+      g.GrowerName,
+      fp.BlockSK,
+      b.BlockCode,
+      b.Hectares,
+      fp.VarietySK,
+      v.VarietyCode,
+      v.VarietyName,
 
     -- Fact attributes
-    , fp.Class
-    , fp.Grade
+      fp.Class,
+      fp.Grade,
 
     -- Measures
-    , SUM(fp.TrayCount) AS TotalTrays
-    , SUM(fp.PackedKg)  AS TotalPackedKg
+      SUM(fp.TrayCount) AS TotalTrays,
+      SUM(fp.PackedKg)  AS TotalPackedKg
 
 FROM fact.FactPacking fp
 LEFT JOIN dim.DimDate      d  ON fp.DateKey     = d.DateKey
@@ -295,20 +295,20 @@ LEFT JOIN dim.DimBlock     b  ON fp.BlockSK     = b.BlockSK  AND b.IsCurrent = 1
 LEFT JOIN dim.DimVariety   v  ON fp.VarietySK   = v.VarietySK
 
 GROUP BY
-      fp.DateKey
-    , d.FullDate
-    , fp.PackLineSK
-    , pl.PackLineName
-    , fp.GrowerSK
-    , g.GrowerCode
-    , g.GrowerName
-    , fp.BlockSK
-    , b.BlockCode
-    , b.Hectares
-    , fp.VarietySK
-    , v.VarietyCode
-    , v.VarietyName
-    , fp.Class
-    , fp.Grade;
+      fp.DateKey,
+      d.FullDate,
+      fp.PackLineSK,
+      pl.PackLineName,
+      fp.GrowerSK,
+      g.GrowerCode,
+      g.GrowerName,
+      fp.BlockSK,
+      b.BlockCode,
+      b.Hectares,
+      fp.VarietySK,
+      v.VarietyCode,
+      v.VarietyName,
+      fp.Class,
+      fp.Grade;
 
 GO
