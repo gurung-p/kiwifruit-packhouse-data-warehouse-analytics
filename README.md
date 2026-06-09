@@ -240,8 +240,3 @@ kiwifruit-packhouse-data-warehouse-analytics/
     ├── packhouse-dw-high-level-architecture.png
     ├── packhouse-dw-data-flow-diagram.png
     └── erd.png
-
-
-
-
-
