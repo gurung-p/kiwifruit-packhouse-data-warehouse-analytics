@@ -236,12 +236,11 @@ kiwifruit-packhouse-data-warehouse-analytics/
     ├── packhouse-dw-data-flow-diagram.png
     └── erd.png
 
-
-
 # Repository Structure
 
 ```plaintext
 kiwifruit-packhouse-data-warehouse-analytics/
+
 ├── README.md
 ├── datasets/
 │   └── raw/                         # Original CSV extracts (orchard, packing, QC, coolstore, downtime)
@@ -256,6 +255,7 @@ kiwifruit-packhouse-data-warehouse-analytics/
     ├── packhouse-dw-high-level-architecture.png
     ├── packhouse-dw-data-flow-diagram.png
     └── erd.png
+
 
 
 
