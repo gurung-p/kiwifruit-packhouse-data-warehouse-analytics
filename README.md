@@ -11,7 +11,7 @@ Built using **SQL Server**, **T‑SQL**, and **Power BI**, this project models t
 - [Purpose of This Project](#purpose-of-this-project)
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
-- [High‑Level Architecture Overview](#high-level-architecture-overview)
+- [High‑Level Architecture Overview](#high‑level-architecture-overview)
 - [Data Pipeline Overview](#data-pipeline-overview)
   - [Data Sources](#data-sources)
   - [Data Transformation Flow](#data-transformation-flow)
