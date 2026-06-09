@@ -219,6 +219,34 @@ A comprehensive glossary explaining key horticultural and post‑harvest terms, 
 
 # Repository Structure
 
+kiwifruit-packhouse-data-warehouse-analytics/
+
+├── README.md
+
+
+├── datasets/
+│   └── raw/                         # Original CSV extracts (orchard, packing, QC, coolstore, downtime)
+
+
+├── sql/
+│   ├── schema/                      # CREATE DATABASE/TABLE scripts (Dimensions, Facts, Reference)
+│   └── semantic-views/              # Analytical SQL views used by Power BI
+
+
+├── power-bi/
+│   ├── pbix/                        # Power BI Desktop files
+│   └── images/                      # Dashboard screenshots (Season, Variety, Grower, etc.)
+
+
+└── docs/
+    ├── packhouse-dw-banner.png
+    ├── packhouse-dw-high-level-architecture.png
+    ├── packhouse-dw-data-flow-diagram.png
+    └── erd.png
+
+
+# Repository Structure
+
 ```plaintext
 kiwifruit-packhouse-data-warehouse-analytics/
 ├── README.md
