@@ -148,6 +148,8 @@ Synthetic datasets emulate real packhouse systems, including:
 # Data Warehouse Schema
 
 ## Dimensions
+Dimensions store descriptive business attributes used for slicing, filtering, and grouping analytics i.e. who, what, where, and when of the business to support meaningful analysis. 
+
 - `DimDate`  
 - `DimGrower`(SCD2 - Slowly Changing Dimension Type 2)   
 - `DimBlock`  (SCD2 - Slowly Changing Dimension Type 2)   
@@ -157,6 +159,8 @@ Synthetic datasets emulate real packhouse systems, including:
 - `DimCustomer`  
 
 ## Fact Tables
+Fact tables store measurable events and numeric values used for aggregation.  
+
 - `FactPacking`  
 - `FactQC`  
 - `FactPallet`  
@@ -164,6 +168,8 @@ Synthetic datasets emulate real packhouse systems, including:
 - `FactDowntime`  
 
 ## Reference Tables
+Reference tables hold standard lookup codes for consistent data interpretation.  
+
 - `RefDefect`  
 - `RefDowntimeReason`  
 
